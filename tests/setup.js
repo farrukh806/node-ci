@@ -6,4 +6,4 @@ const keys = require('../config/keys');
 mongoose.Promise = global.Promise;
 mongoose.connect(keys.mongoURI, { useMongoClient: true });
 console.log('NODE_ENV', process.env.NODE_ENV);
-jest.setTimeout(30000);
+jest.setTimeout(40000);
