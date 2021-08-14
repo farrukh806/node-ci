@@ -5,5 +5,5 @@ const keys = require('../config/keys');
 
 mongoose.Promise = global.Promise;
 mongoose.connect(keys.mongoURI, { useMongoClient: true });
-
-jest.setTimeout(60000);
+console.log('Timeout');
+jest.setTimeout(30000);
