@@ -1,2 +1,2 @@
-# AdvancedNodeStarter
-Starting project for a course on Advanced Node @ Udemy
+# redis-project CI
+MERN project with redis cache implementation and Travis CI(continuous integration) 
